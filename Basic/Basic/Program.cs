@@ -17,7 +17,8 @@ namespace Basic
             art.add();
             Swap swap = new Swap();
             swap.main();
-
+            Multiplication bj = new Multiplication();
+            bj.Mul();
 
         }
     }
