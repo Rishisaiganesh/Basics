@@ -8,9 +8,11 @@ namespace Basic
     {
         int a = 2;
         int b = 3;
+        int c;
         public void sum()
         {
-            Console.WriteLine("sum of a+ b=" +a+b);
+            c = a + b;
+            Console.WriteLine("sum of a+ b=" +c);
 
         }
     }
