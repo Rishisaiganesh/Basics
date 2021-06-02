@@ -19,6 +19,7 @@ namespace Basic
             Console.WriteLine("Press 9 to multiplication with 3 users number");
             Console.WriteLine("press 10 to check age");
             Console.WriteLine("Press 11 to check rows");
+            Console.WriteLine("press 12 to check Celsius");
             int selectio = Convert.ToInt32(Console.ReadLine());
             switch (selectio)
             {
@@ -70,6 +71,10 @@ namespace Basic
                 case 11:
                     DisplayInputsFourtimes display = new DisplayInputsFourtimes();
                     display.check();
+                    break;
+                case 12:
+                    Celsius tmp = new Celsius();
+                    tmp.check();
                     break;
                 default:
                     Console.WriteLine("in valid expresion");
