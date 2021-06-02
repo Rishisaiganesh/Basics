@@ -9,6 +9,8 @@ namespace Basic
             Console.WriteLine("Basic programs");
             basic OBj = new basic();
             OBj.Name();
+            Adding add = new Adding();
+            add.sum();
 
         }
     }
