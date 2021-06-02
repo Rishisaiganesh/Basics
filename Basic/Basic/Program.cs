@@ -15,6 +15,7 @@ namespace Basic
             Console.WriteLine("Press 5 to Multilication");
             Console.WriteLine("Press 6 to AddMulSub by user");
             Console.WriteLine("Press 7 to Table");
+            Console.WriteLine("Press 8 to Average");
             int selectio = Convert.ToInt32(Console.ReadLine());
             switch (selectio)
             {
@@ -50,6 +51,10 @@ namespace Basic
                 case 7:
                     Table obj = new Table();
                     obj.table();
+                    break;
+                case 8:
+                    Average avg = new Average();
+                    avg.Check();
                     break;
                 default:
                     Console.WriteLine("in valid expresion");
