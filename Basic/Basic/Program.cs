@@ -11,6 +11,8 @@ namespace Basic
             OBj.Name();
             Adding add = new Adding();
             add.sum();
+            Division div = new Division();
+            div.Div();
 
         }
     }

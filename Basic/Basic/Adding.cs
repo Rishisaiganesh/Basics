@@ -10,7 +10,7 @@ namespace Basic
         int b = 3;
         public void sum()
         {
-            Console.WriteLine("sum of a, b" + a + b);
+            Console.WriteLine("sum of a+ b=" +$" a+b");
 
         }
     }
