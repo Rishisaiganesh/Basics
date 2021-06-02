@@ -17,6 +17,7 @@ namespace Basic
             Console.WriteLine("Press 7 to Table");
             Console.WriteLine("Press 8 to Average");
             Console.WriteLine("Press 9 to multiplication with 3 users number");
+            Console.WriteLine("press 10 to check age");
             int selectio = Convert.ToInt32(Console.ReadLine());
             switch (selectio)
             {
@@ -60,6 +61,10 @@ namespace Basic
                 case 9:
                     MultiplayWith3inputs mul = new MultiplayWith3inputs();
                     mul.add();
+                    break;
+                case 10:
+                    Age check = new Age();
+                    check.Check();
                     break;
                 default:
                     Console.WriteLine("in valid expresion");
