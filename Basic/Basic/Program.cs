@@ -13,6 +13,9 @@ namespace Basic
             add.sum();
             Division div = new Division();
             div.Div();
+            Arthamatic art = new Arthamatic();
+            art.add();
+
 
         }
     }
