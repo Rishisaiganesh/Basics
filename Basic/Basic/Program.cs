@@ -14,6 +14,7 @@ namespace Basic
             Console.WriteLine("Press 4 to Swaping");
             Console.WriteLine("Press 5 to Multilication");
             Console.WriteLine("Press 6 to AddMulSub by user");
+            Console.WriteLine("Press 7 to Table");
             int selectio = Convert.ToInt32(Console.ReadLine());
             switch (selectio)
             {
@@ -45,6 +46,10 @@ namespace Basic
                 case 6:
                     AddSubMul Obj = new AddSubMul();
                     Obj.Add();
+                    break;
+                case 7:
+                    Table obj = new Table();
+                    obj.table();
                     break;
                 default:
                     Console.WriteLine("in valid expresion");
