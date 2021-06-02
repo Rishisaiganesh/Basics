@@ -15,6 +15,8 @@ namespace Basic
             div.Div();
             Arthamatic art = new Arthamatic();
             art.add();
+            Swap swap = new Swap();
+            swap.main();
 
 
         }
